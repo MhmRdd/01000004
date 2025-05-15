@@ -1,6 +1,7 @@
-### v0.0.4 (43)
+### v0.0.4 (44)
 
-- Commit: `596e686`
+- Commit: `8e7d0a8`
 - ABI(s): arm64-v8a, armeabi-v7a, x86, x86_64
 
-Stop tracking .github/updates directory
+- Adjusted uninstall.sh
+- Changed updateJson to better alternative
