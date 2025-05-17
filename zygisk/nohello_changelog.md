@@ -1,6 +1,6 @@
-### v0.0.5 (47)
+### v0.0.5 (48)
 
-- Commit: `3bdf3df`
+- Commit: `86aa587`
 - ABI(s): arm64-v8a, armeabi-v7a, x86, x86_64
 
 - Added fallback when `setns` fails with `pidfd_open` in some kernel version alike 4.19
@@ -9,3 +9,4 @@
 - Fixed an issue where module.prop could go missing due to excessive & synchronous writing on prop from differences processes
 - Added support for `umount_persist`/`umount_persists` to evaluate Mount Rule System once only (to avoid `whitelist` excessive evaluation & causing overheating issues).
 - Create initial setup for `/data/adb/nohello` with default `umount` & `umount_persist`.
+- Fixed update.json
