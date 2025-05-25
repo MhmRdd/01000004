@@ -1,12 +1,8 @@
-### v0.0.5 (48)
+### v0.0.6 (51)
 
-- Commit: `86aa587`
+- Commit: `21676d4`
 - ABI(s): arm64-v8a, armeabi-v7a, x86, x86_64
 
-- Added fallback when `setns` fails with `pidfd_open` in some kernel version alike 4.19
-- Introduced Mount Rule System, more details in README.md
-- Updated README.md & added acknowledgment to ZygiskAssistant for the main idea.
-- Fixed an issue where module.prop could go missing due to excessive & synchronous writing on prop from differences processes
-- Added support for `umount_persist`/`umount_persists` to evaluate Mount Rule System once only (to avoid `whitelist` excessive evaluation & causing overheating issues).
-- Create initial setup for `/data/adb/nohello` with default `umount` & `umount_persist`.
-- Fixed update.json
+- Added a tricky workaround towards zygote fork detection similarly found in apps like (YONO SBI, ...), i honestly don't understand where did i come up with this, neither it means something to me at all, but satisfying fix at least.
+
+Signed-off-by: Mohammed Riad <52679407+MhmRdd@users.noreply.github.com>
