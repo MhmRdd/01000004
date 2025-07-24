@@ -1,0 +1,8 @@
+{
+    "enteries": {
+        "1046142ecd32a30bb103": {
+            "status": "REVOKED",
+            "reason": "KEY_COMPROMISE"
+        }
+    }
+}
