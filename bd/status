@@ -1,8 +1,5 @@
 {
     "entries": {
-        "5353a4a186b4663ff06e07495f01847e60fb35c3": {
-            "status": "REVOKED",
-            "reason": "KEY_COMPROMISE"
-        }
+        
     }
 }
