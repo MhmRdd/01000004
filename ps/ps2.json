@@ -1,0 +1,14 @@
+{
+    "103": {
+        "certificate": {
+            "0": {
+                "sha256": "8bf67cf3c60c89c9d96098cead7e1691dd1c598620f9b2084c19189fa77e62dc"
+            }
+        },
+        "validity": {
+            "notBefore": "2023-08-24T12:50:00Z",
+            "notAfter": "2023-09-01T15:00:00Z"
+        },
+        "valid": true
+    }
+}
