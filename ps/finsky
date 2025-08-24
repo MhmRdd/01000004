@@ -1,0 +1,49 @@
+{
+  "84743130": {
+    "classes": {
+      "Optional": "j$.util.Optional",
+      "ByteString": "bmak",
+      "CertificateList": "bmdm",
+      "AttestationResult": "bhzl",
+      "KeyGenerationParams": "yyi",
+      "InstallationQueueItem": "yfv",
+      "InstallationQueueManager": "yii",
+      "AttestationGenerator": "yyh",
+      "LogCollector": "bbwv"
+    },
+    "fields": {
+      "bhzl": {
+        "self": "a",
+        "certChain": "c"
+      },
+      "yyi": {
+        "challenge": "a"
+      }
+    },
+    "methods": {
+      "j$.util.Optional": {
+        "of": "of"
+      },
+      "bmak": {
+        "fromBytes": "t",
+        "toBytes": "C"
+      },
+      "bmdm": {
+        "add": "add"
+      },
+      "yfv": {
+        "getPackageName": "H"
+      },
+      "yii": {
+        "rejectInstallation": "K",
+        "processQueue": "l"
+      },
+      "yyh": {
+        "generateAttestation": "a"
+      },
+      "bbwv": {
+        "shouldCollectLogs": "j"
+      }
+    }
+  }
+}
