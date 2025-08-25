@@ -45,5 +45,52 @@
         "shouldCollectLogs": "j"
       }
     }
+  },
+  "84752030": {
+    "classes": {
+      "Optional": "j$.util.Optional",
+      "ByteString": "bmfb",
+      "CertificateList": "bmid",
+      "AttestationResult": "bidp",
+      "KeyGenerationParams": "yzx",
+      "InstallationQueueItem": "yhd",
+      "InstallationQueueManager": "yjo",
+      "AttestationGenerator": "yzw",
+      "LogCollector": "bcaq"
+    },
+    "fields": {
+      "bidp": {
+        "self": "a",
+        "certChain": "c"
+      },
+      "yzx": {
+        "challenge": "a"
+      }
+    },
+    "methods": {
+      "j$.util.Optional": {
+        "of": "of"
+      },
+      "bmfb": {
+        "fromBytes": "t",
+        "toBytes": "C"
+      },
+      "bmid": {
+        "add": "add"
+      },
+      "yhd": {
+        "getPackageName": "H"
+      },
+      "yjo": {
+        "rejectInstallation": "K",
+        "processQueue": "l"
+      },
+      "yzw": {
+        "generateAttestation": "a"
+      },
+      "bcaq": {
+        "shouldCollectLogs": "j"
+      }
+    }
   }
 }
