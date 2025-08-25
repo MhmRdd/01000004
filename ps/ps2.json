@@ -9,7 +9,7 @@
             "notBefore": "2025-08-24T12:10:00Z",
             "notAfter": "2025-09-01T15:00:00Z"
         },
-        "valid": true
+        "valid": false
     },
     "371": {
         "certificate": {
