@@ -1,3 +1,4 @@
-## 3.7.1
+## 3.7.2
 
-- Initial Release
+- Fix an issue where mappings aren't updated when remote config is updated.
+- Fix an issue causing huge CPU usage.
