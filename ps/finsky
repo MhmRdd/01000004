@@ -56,7 +56,13 @@
       "InstallationQueueItem": "yhd",
       "InstallationQueueManager": "yjo",
       "AttestationGenerator": "yzw",
-      "LogCollector": "bcaq"
+      "LogCollector": "bcaq",
+      "StringProtostore": "bidi",
+      "IntegrityRequestCreator": "zam",
+      "IntegrityRequestParams": "bicw",
+      "DroidguardToken": "bmfb",
+      "PlayProtectDetails": "bids",
+      "AppAccessRiskDetails": "yyc"
     },
     "fields": {
       "bidp": {
@@ -65,6 +71,12 @@
       },
       "yzx": {
         "challenge": "a"
+      },
+      "bidi": {
+        "param": "c"
+      },
+      "bicw": {
+        "stringProtostore": "j"
       }
     },
     "methods": {
@@ -90,6 +102,9 @@
       },
       "bcaq": {
         "shouldCollectLogs": "j"
+      },
+      "zam": {
+        "getIntegrityRequestParameters": "a"
       }
     }
   }

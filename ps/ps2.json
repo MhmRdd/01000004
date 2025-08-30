@@ -19,7 +19,19 @@
         },
         "validity": {
             "notBefore": "2025-08-26T15:30:00Z",
-            "notAfter": "2025-08-30T23:00:00Z"
+            "notAfter": "2025-08-31T15:00:00Z"
+        },
+        "valid": true
+    },
+    "373": {
+        "certificate": {
+            "0": {
+                "sha256": "8bf67cf3c60c89c9d96098cead7e1691dd1c598620f9b2084c19189fa77e62dc"
+            }
+        },
+        "validity": {
+            "notBefore": "2025-08-30T18:10:00Z",
+            "notAfter": "2025-09-05T15:00:00Z"
         },
         "valid": true
     }
