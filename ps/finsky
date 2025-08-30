@@ -73,6 +73,7 @@
         "challenge": "a"
       },
       "bidi": {
+        "index": "b",
         "param": "c"
       },
       "bicw": {
