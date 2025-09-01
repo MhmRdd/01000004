@@ -107,5 +107,63 @@
         "getIntegrityRequestParameters": "a"
       }
     }
+  },
+  "84762830": {
+    "classes": {
+      "Optional": "j$.util.Optional",
+      "ByteString": "bmjv",
+      "CertificateList": "bmmu",
+      "AttestationResult": "bihu",
+      "KeyGenerationParams": "zce",
+      "InstallationQueueItem": "yji",
+      "InstallationQueueManager": "ylu",
+      "AttestationGenerator": "zcd",
+      "StringProtostore": "bihn",
+      "IntegrityRequestCreator": "zcp",
+      "IntegrityRequestParams": "bihb",
+      "PlayProtectDetails": "bihx",
+      "AppAccessRiskDetails": "zai"
+    },
+    "fields": {
+      "bihu": {
+        "self": "a",
+        "certChain": "c"
+      },
+      "zce": {
+        "challenge": "a"
+      },
+      "bihn": {
+        "index": "b",
+        "param": "c"
+      },
+      "bihb": {
+        "stringProtostore": "j"
+      }
+    },
+    "methods": {
+      "j$.util.Optional": {
+        "of": "of"
+      },
+      "bmjv": {
+        "fromBytes": "t",
+        "toBytes": "C"
+      },
+      "bmmu": {
+        "add": "add"
+      },
+      "yji": {
+        "getPackageName": "H"
+      },
+      "ylu": {
+        "rejectInstallation": "K",
+        "processQueue": "l"
+      },
+      "zcd": {
+        "generateAttestation": "a"
+      },
+      "zcp": {
+        "getIntegrityRequestParameters": "a"
+      }
+    }
   }
 }
