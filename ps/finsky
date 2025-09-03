@@ -119,7 +119,7 @@
       "InstallationQueueManager": "ylu",
       "AttestationGenerator": "zcd",
       "StringProtostore": "bihn",
-      "IntegrityRequestCreator": "zcp",
+      "IntegrityRequestCreator": "zct",
       "IntegrityRequestParams": "bihb",
       "PlayProtectDetails": "bihx",
       "AppAccessRiskDetails": "zai"
@@ -161,7 +161,7 @@
       "zcd": {
         "generateAttestation": "a"
       },
-      "zcp": {
+      "zct": {
         "getIntegrityRequestParameters": "a"
       }
     }
