@@ -162,7 +162,8 @@
         "generateAttestation": "a"
       },
       "zct": {
-        "getIntegrityRequestParameters": "a"
+        "getIntegrityRequestParameters": "a",
+        "buildRequestParams": "b"
       }
     }
   }
