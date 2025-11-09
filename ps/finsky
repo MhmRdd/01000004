@@ -137,7 +137,9 @@
         "param": "c"
       },
       "bihb": {
-        "stringProtostore": "j"
+        "flags": "b",
+        "stringProtostore": "j",
+        "deviceIdentifier": "i"
       }
     },
     "methods": {
