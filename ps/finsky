@@ -151,7 +151,8 @@
     },
     "methods": {
       "j$.util.Optional": {
-        "of": "of"
+        "of": "of",
+        "get": "get"
       },
       "bmjv": {
         "fromBytes": "t",
