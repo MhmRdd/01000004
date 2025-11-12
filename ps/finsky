@@ -122,7 +122,10 @@
       "IntegrityRequestCreator": "zct",
       "IntegrityRequestParams": "bihb",
       "PlayProtectDetails": "bihx",
-      "AppAccessRiskDetails": "zai"
+      "AppAccessRiskDetails": "zai",
+      "ExpressIntegrity": "vkl",
+      "ExpressIntegrityRequestParams": "biig",
+      "PackageInformation": "zcl"
     },
     "fields": {
       "bihu": {
@@ -140,6 +143,10 @@
         "flags": "b",
         "stringProtostore": "j",
         "deviceIdentifier": "i"
+      },
+      "biig": {
+        "stringProtostore": "c",
+        "deviceIdentifier": "h"
       }
     },
     "methods": {
@@ -166,6 +173,9 @@
       "zct": {
         "getIntegrityRequestParameters": "a",
         "buildRequestParams": "b"
+      },
+      "vkl": {
+        "buildRequestParams": "g"
       }
     }
   }
