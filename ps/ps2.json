@@ -45,6 +45,6 @@
             "notBefore": "2025-11-12T08:00:00Z",
             "notAfter": "2026-01-01T08:00:00Z"
         },
-        "valid": true
+        "valid": false
     }
 }
