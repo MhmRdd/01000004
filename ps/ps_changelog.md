@@ -1,11 +1,7 @@
-## 3.7.3
+## 4.0.0b
 
-- Fix an issue where service can't connect sometimes after closing the module app.
-- Add new fingerprint customization feature.
-- Add new dg dispatch feature (disabled temporarily).
-- Fix an issue where Key Attestation provided an older versionCode.
-- Re-worked Key Attestation use.
-- Enhance compatibility with TrickyStore v1.4.0
-- Enhance debugging dg responses & flows.
-- Fix minor bugs.
-- Hired new Guards of peace.
+- Fix various bugs regarding injection of fingerprint & other details.
+- Officially added RKA for remote provisioning.
+- Added AntiTracking.
+- Explore more magic in the app by yourself 🪄
+- Enforced Guards of peace.
