@@ -46,5 +46,17 @@
             "notAfter": "2026-01-01T08:00:00Z"
         },
         "valid": true
+    },
+    "397": {
+        "certificate": {
+            "0": {
+                "sha256": "8bf67cf3c60c89c9d96098cead7e1691dd1c598620f9b2084c19189fa77e62dc"
+            }
+        },
+        "validity": {
+            "notBefore": "2025-12-16T08:00:00Z",
+            "notAfter": "2026-01-24T08:00:00Z"
+        },
+        "valid": true
     }
 }
