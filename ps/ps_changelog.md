@@ -1,7 +1,8 @@
-## 4.0.0b
+## 4.0.1b
 
-- Fix various bugs regarding injection of fingerprint & other details.
-- Officially added RKA for remote provisioning.
-- Added AntiTracking.
-- Explore more magic in the app by yourself 🪄
-- Enforced Guards of peace.
+- Fix various bugs on startup.
+- Remove TLS/SSL requirement for local/private networks for RKA.
+- Unlock packages attestations for global use.
+- Enhance performance of connectivity.
+- Enforce guards of RKA.
+- Removed AntiTracking to prevent rampant abuse.
