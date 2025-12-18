@@ -6,3 +6,4 @@
 - Enhance performance of connectivity.
 - Enforce guards of RKA.
 - Removed AntiTracking to prevent rampant abuse.
+- Resolved an issue of sync when updating PlayStrong.
